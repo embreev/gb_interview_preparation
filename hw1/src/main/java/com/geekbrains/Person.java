@@ -54,7 +54,7 @@ public class Person {
     }
 
     public void printPerson() {
-        System.out.printf("ФИО: %s %s %s; Адрес: %s, %s; Телефон: %s; Возраст: %d; Пол: %s",
+        System.out.printf("Name: %s %s %s; Address: %s, %s; Phone: %s; Age: %d; Gender: %s \n",
                 this.firstName, this.middleName, this.lastName,
                 this.country, this.address, this.phone, this.age, this.gender);
     }
